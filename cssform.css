@@ -1,0 +1,27 @@
+form{
+	background-color: #ffddf5;
+	width: 400px;
+	height: auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+}
+main{
+	background-color: gray;
+	display: flex;
+	justify-content:center;
+	padding: 20px;
+}
+input{
+	color: #cb2c31;
+	background-color:#6fcb9f;
+	font-size: 25px;
+}
+input#sub{
+	border-radius: 15px;
+	background-color: gray;
+	margin: 10px;
+	color: white;
+	font-weight: bold;
+}

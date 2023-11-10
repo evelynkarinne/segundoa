@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMULÁRIOS</title>
+	<link rel="stylesheet" href="cssform.css">
+</head>
+<body>
+<h1>CADASTRO</h1>
+<main>
+<form>
+	<h3>Nome:</h3>
+	<input type="text" placeholder="Coloque seu nome" maxlength="25" required >
+	<h3>E-mail:</h3>
+	<input type="email" placeholder="E-mail" required autofocus>
+	<h3>Telefone:</h3>
+	<input type="tel" required maxlength="9">
+	<h3>Data de Nascimento:</h3>
+	<input type="date">
+	<h3>Eixo:</h3>
+	<section>
+		<input type="radio" value="p" name="eixo">Produção
+		<input type="radio" value="s" name="eixo">Saúde
+		<input type="radio" value="t" name="eixo">Tecnologia
+	</section>
+	<br>
+	<h3>Áreas de Interesse:</h3>
+	<select>
+		<option>Programação</option>
+		<option>Primeiros Socorros</option>
+		<option selected>Jogos</option>
+		<option>Acessibilidade</option>
+		<option>Carros elétricos</option>	
+	</select>
+	<br><br>
+	<h3>Deixe aqui seu comentário:</h3>
+	<textarea cols="30" rows="10" placeholder="Coloque seu comentário"></textarea>
+	<br><br>
+	<input type="submit" value="CADASTRAR" id="sub">
+	<input type="reset" value="CANCELAR">
+</form>
+</main>
+</body>
+</html>
